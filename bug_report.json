@@ -1,6 +1,12 @@
-{ "Title": "An error appears while opening downloaded file"
+{ "bug_1":{ "Title": "An error appears while opening downloaded file",
   "Pre-condition": ["User is logged the system", "test1@gmail.com", "Test12345"],
   "StepsToReproduce": ["1.Open Account Statements tab", "2. Download any AS with Total != 0", "3.Open downloaded file"],
   "ActualResult": " An error appears",
-  "ExpectedResult": "File is opened successfully. No errors appear."
+  "ExpectedResult": "File is opened successfully. No errors appear."},
+ 
+  "bug_2":{ "Title": "Activation link is not received when creating a new user on the platform",
+  "Pre-condition": ["User is logged the system by User with Account Admin role", "test441@gmail.com", "Test12345"],
+  "StepsToReproduce": ["1. Click on My company tab", "2. Click on Team tab", "3. Click on Add New Member button", "4.Fill in all fields with valid data", "5. Click on Add Member button", "6. Open the user email box"],
+  "ActualResult": " The user is created, a link isn't sent to his email.",
+  "ExpectedResult": "The user is created, a link is sent to his email."}
 }
