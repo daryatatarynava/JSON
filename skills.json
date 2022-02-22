@@ -1,0 +1,7 @@
+{ "TestingFundamentals":["TestTypes", "BugReports", "TestCases", "CheckLists", "TestMethods"],
+	"API":["Methods", "RequestStructure", "ResponseCodes", "JSON", "XML"],
+	"ReadLogs": ["Charles", "Fidler"],
+	"DevTools": ["GC","FF"],
+	"MobileTesting": ["iOS","Android","Guidlines", "XCode","AndroinStudio"],
+	"SQL": ["Create", "Delete", "Drop", "Select", "From", "Where", "Join"]
+}
