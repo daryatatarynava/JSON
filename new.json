@@ -1,2 +1,6 @@
-{
+{ "FirstName": "Darya",
+	"LastName": "Tatarynava",
+	"age": 29,
+	"pets_number": 1,
+	"salary": 3000
 }
