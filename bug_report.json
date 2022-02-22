@@ -1,0 +1,6 @@
+{ "Title": "An error appears while opening downloaded file"
+  "Pre-condition": ["User is logged the system", "test1@gmail.com", "Test12345"],
+  "StepsToReproduce": ["1.Open Account Statements tab", "2. Download any AS with Total != 0", "3.Open downloaded file"],
+  "ActualResult": " An error appears",
+  "ExpectedResult": "File is opened successfully. No errors appear."
+}
